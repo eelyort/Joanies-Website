@@ -209,6 +209,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.card-pic-pair .card.card-pic-pair-pic.joanie {
+    background-image: url("../images/joanie.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: top center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .shadow-effect {
     box-shadow: 0 0 1rem #000;

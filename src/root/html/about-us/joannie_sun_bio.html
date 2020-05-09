@@ -7,7 +7,20 @@
     <meta charset="UTF-8">
     <title>Vu Sun Dermatology</title>
 
+    <!--<script-->
+            <!--src="https://code.jquery.com/jquery-3.3.1.js"-->
+            <!--integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="-->
+            <!--crossorigin="anonymous">-->
+    <!--</script>-->
+    <!--<script>-->
+        <!--$(function(){-->
+          <!--$("#header").load("header.html");-->
+          <!--$("#footer").load("footer.html");-->
+        <!--});-->
+    <!--</script>-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
     <div id = "OverallContainer" class = "container">
@@ -20,7 +33,7 @@
                     <div class = "col pl-0 pr-0">
 
                         <nav class = "navbar navbar-expand-lg navbar-light pt-0 pb-0 pl-0 pr-0">
-                            <a class = "navbar-brand navbar-logo" href = "../../../index.html">
+                            <a class = "navbar-brand navbar-logo" href = "../../../../index.html">
                                 <img class = "" src = "../../images/logo.gif" height = "67.2" width = "110.4" alt = "Logo">
                             </a>
                             <button class = "navbar-toggler mr-3" type = "button" data-toggle = "collapse" data-target = "#mainNavbarCollapse" aria-controls="mainNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,25 +43,25 @@
                             <div class = "collapse navbar-collapse no-highlight-link" id = "mainNavbarCollapse">
 
                                 <div class = "nav-item dropdown">
-                                    <a class = "nav-link" href = "#" role = "button" id = "aboutUsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    <a class = "nav-link active" href = "#" role = "button" id = "aboutUsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                     >About Us</a>
 
                                     <div class = "dropdown-menu" aria-labelledby = "aboutUsDropdown">
-                                        <a class="dropdown-item" href="../about-us/ann_vu_bio.html"
+                                        <a class="dropdown-item" href="./ann_vu_bio.html"
                                         >Ann Vu, MD</a>
-                                        <a class="dropdown-item" href="../about-us/joannie_sun_bio.html"
+                                        <a class="dropdown-item active" href="./joannie_sun_bio.html"
                                         >Joannie Sun, MD</a>
                                     </div>
                                 </div>
 
                                 <div class = "nav-item dropdown">
-                                    <a class = "nav-link active" href = "#" role = "button" id = "servicesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    <a class = "nav-link" href = "#" role = "button" id = "servicesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                     >Services</a>
 
                                     <div class = "dropdown-menu" aria-labelledby = "servicesDropdown">
-                                        <a class="dropdown-item" href="./cosmetic-services.html"
+                                        <a class="dropdown-item" href="../services/cosmetic-services.html"
                                         >Cosmetic Services</a>
-                                        <a class="dropdown-item active" href="./patient-forms.html"
+                                        <a class="dropdown-item" href="../services/patient-forms.html"
                                         >Patient Forms</a>
                                     </div>
                                 </div>
@@ -61,47 +74,36 @@
 
                 </div>
 
-                <div class = "row bg-text-and-stuff">
+                <div class = "row bg-text-and-stuff row-eq-height card-pic-pair">
+
+                    <div class = "col-12 col-md-7">
+                        <div class = "card">
+                            <div class=  "card-header header-title">
+                                <h5
+                                >Joannie Sun, MD</h5>
+                            </div>
+                            <div class = "card-pic-pair-alternate-pic">
+                                <img class = "card-img-top" src = "../../images/joanie.jpg">
+                            </div>
+                            <div class = "card-body">
+                                <!--<h5 class = "card-title"-->
+                                <!--&gt;Joannie Sun, MD</h5>-->
+                                <p class = "card-text">
+                                    Joannie Sun MD grew up in Bozeman, Montana enjoying skiing and hiking. She obtained a B.S. degree in biological sciences at Duke University, then attended medical school at the University of Washington. She completed a residency in Internal Medicine at the University of Washington. She decided to change specialties to Dermatology, which she completed at the University of California, Irvine. During her residency she also completed a clinical research fellowship in Dermatology, investigating studies in the treatment of psoriasis, actinic keratoses, cosmetic dermatology and atopic dermatitis.
+                                    <br><br>
+                                    She has worked full time in clinical dermatology in private practice since 2004 in Newport Beach, CA, specializing in general medical, surgical and aesthetic dermatology. Dr. Sun co-founded Advanced Dermatology of Orange County with Dr. Vu in 2007. She focuses primarily on medical dermatology specializing in care of skin cancer including performing Mohs microsurgery,as well as other general dermatology. She is interested in laser treatment for skin rejuvenation as well as treatment with Botox and fillers. She sees patients of all ages (including children) and enjoys the long term relationships that arise from seeing patients over many years. Dr. Sun has been a Fellow of the American Academy of Dermatology since starting clinical practice. In 2017 Dr. Sun was elected Best Dermatologist by the LA Times OC Times.
+                                    <br><br>
+                                    Dr. Sun is married, and has one son and one daughter. In her free time she enjoys cooking, exercise, playing the piano and travel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class = "col">
-
-                        <div class = "card card-secondary">
-                            <div class = "row">
-                                <div class = "col text-center">
-                                    <h1
-                                    >Patient Forms</h1>
-                                </div>
-                            </div>
-
-                            <div class = "row padding-top">
-                                <div class = "col-12 col-md-6 col-lg-4">
-                                    <a class = "no-highlight-link" href="../../forms/intake.pdf" target="_blank">
-                                        <div class = "card button-card">
-                                            <div class = "card-body">
-                                                <h5 class = "card-title"
-                                                >Form 1</h5>
-                                                <p class = "card-text"
-                                                >Form for all patients, fill out to save time at check-in.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class = "col-12 col-md-6 col-lg-4">
-                                    <a class = "no-highlight-link" href = "#">
-                                        <div class = "card button-card">
-                                            <div class = "card-body">
-                                                <h5 class = "card-title"
-                                                >Form 2</h5>
-                                                <p class = "card-text"
-                                                >Form for first time patients, fill out to save time at check-in.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                        <div class = "card card-pic-pair-pic joanie">
 
                         </div>
-
+                        <!--<img class = "" src = "./picture2.jpg">-->
                     </div>
 
                 </div>
@@ -191,7 +193,7 @@
 
                         <div class = "row footer-inner-row triangle-list no-highlight-link">
                             <div class = "col footer-inner-col">
-                                <a class = "triangle-list-item active" href = "../services/patient-forms.html"
+                                <a class = "triangle-list-item" href = "../services/patient-forms.html"
                                 >Patient Forms<br></a>
 
                                 <a class = "triangle-list-item" href = "../services/cosmetic-services.html"
