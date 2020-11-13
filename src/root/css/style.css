@@ -2,14 +2,6 @@ body {
     background-color: rgb(249, 249, 231);
 }
 
-
-/*
-.dropdown-menu {
-    border: none;
-    content: none;
-}
-*/
-
 .brown-text {
     color:  rgb(99, 80, 56);
 }
@@ -37,17 +29,12 @@ body {
     background-color: rgb(252, 252, 252);
     box-shadow: 0 0 0.2em rgb(78, 190, 208);
     border: 1px solid rgb(78, 190, 208);
-    /*
-    margin-left: 0.1em;
-    margin-right: 0.1em;
-    */
+    overflow: hidden;
 }
 
 .card .header-title {
     padding-top: 0.6em;
     padding-bottom: 0.3em;
-    /*font-weight: bold;
-    font-size: 1.5em;*/
     overflow: hidden;
     border-radius: 1em 1em 0 0;
     background-color: rgb(251, 251, 251);
@@ -60,17 +47,6 @@ body {
 .card-set .row-eq-height .card {
     height: 90%;
 }
-/*
-.card-set .card .card-set-header-title {
-    padding-top: 0.6em;
-    padding-bottom: 0.3em;
-    /*font-weight: bold;
-    font-size: 1.5em;
-    overflow: hidden;
-    border-radius: 1em 1em 0 0;
-    background-color: rgb(251, 251, 251);
-}
-*/
 .card.card-secondary {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -83,23 +59,12 @@ body {
     height: 100%;
 }
 .google-map-embed {
-/*
-    margin-left: -4em;
-    margin-right: 1em;
-    */
     width: 100%;
     height: 100%;
     border-radius: 1em;
     overflow: hidden;
     border: 2px solid rgb(78, 190, 208);
 }
-/*
-@media (min-width: 0px) and (max-width: 768px) {
-    .google-map-embed {
-        margin-left: 1em;
-    }
-}
-*/
 
 .general-inner-row {
     padding-top: 0em;
@@ -120,49 +85,25 @@ body {
 .general-list-title::after {
     content: ":";
 }
-/*.card-set .card .card-set-card-title {
-    padding-bottom: 0.15em;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    border: 1px solid grey;
-    border-style: none none solid none;
-}*/
-
-/*
-.card-pic-pair {
-    box-shadow: 0 0 0.2em magenta;
-}*/
 .card-pic-pair .card.card-pic-pair-pic {
     display: none;
 }
 .card-pic-pair .card-pic-pair-alternate-pic{
     display: initial;
-    max-height: 50vh;
+    height: 550px;
     overflow: hidden;
 }
-@media only screen and (min-width: 768px) {
-    .card-pic-pair .card .header-title {
-    /*
-        padding-top: 0.6em;
-        padding-bottom: 0.3em;
-        /*font-weight: bold;
-        font-size: 1.5em;
-        overflow: hidden;
-        border-radius: 1em 1em 0 0;
-        background-color: rgb(251, 251, 251);*/
-
-        /*
-        border-right-style: inset;
-        border-radius: 1em 0 0 0;*/
-    }
+.card-pic-pair .card-pic-pair-alternate-pic img{
+    margin-top: -50px;
+}
+@media only screen and (min-width: 992px) {
     .card-pic-pair .card-pic-pair-alternate-pic{
         display: none;
     }
     .card-pic-pair .col-7 {
         padding-right: 0;
     }
-    .card-pic-pair .col-md-7 {
+    .card-pic-pair .col-lg-7 {
         padding-right: 0;
     }
     .card-pic-pair .col {
@@ -175,8 +116,6 @@ body {
         margin-left: 1em;
         margin-right: -0.1em;
         border-style: solid none solid solid;
-        /*box shadow: x-offset y-offset blur spread color*/
-        /*box-shadow: -0.15em 0 0.2em 0 rgb(78, 190, 208);*/
     }
     .card-pic-pair .card.card-pic-pair-pic {
         /*IMPORTANT! re-shows element*/
@@ -200,7 +139,7 @@ body {
 }
 /*Specific classes's for specific pictures*/
 .card-pic-pair .card.card-pic-pair-pic.picture2 {
-    background-image: url("../images/picture2.jpg");
+    background-image: url("../images/ann.jpg");
 
     background-repeat: no-repeat;
 
@@ -240,25 +179,6 @@ body {
     color: white;
 }
 
-/*
-.button-card:hover {
-    background-color: silver;
-}
-
-/*
-.sideways-triangle-anchor-list a {
-    padding-top: 0.5em;
-}
-@media only screen and (min-width: 768px) {
-    .sideways-triangle-anchor-list a {
-        padding-top: 1.15em;
-    }
-}
-.sideways-triangle-anchor-list a::before {
-     content: ">";
-}
-*/
-
 .button-card.card {
     height: 100%;
     background-color: rgb(177, 224, 232);
@@ -283,27 +203,22 @@ body {
     padding-top: 1em;
 }
 
-/*.sideways-triangle-anchor-list h6::after {
-    content: "\A";
-    white-space: pre;
-}*/
-/*
-a:hover {
-    text-decoration: none;
+.patient-forms {
+    margin: 5px 5px 15px;
 }
-*/
 
-/*
-#mainNavbarCollapse {
-    background-color: rgb(187, 234, 242);
-    background-color: Magenta;
+.main-group {
+    margin: 14px 8px;
 }
-@media only screen and (min-width: 992){
-    #mainNavbarCollapse {
-        background-color: white;
-    }
+
+#HomePageCards {
+    background-color: white;
+    padding: 7px 16px;
 }
-*/
+#HomePageCards .row-12{
+    margin: 10px 0;
+}
+
 #Header {
     background-color: rgb(177, 224, 232);
     /*background-color: rgb(251, 251, 251);*/
@@ -319,7 +234,7 @@ a:hover {
         background-color: inherit;
     }
 }
-Main navbar general settings
+/*Main navbar general settings*/
 #mainNavbarCollapse a{
     color: rgb(99, 80, 56);
     font-weight: bold;
@@ -352,126 +267,15 @@ Main navbar general settings
 
 #HomePagePicture {
     background-color: white;
-    background-image: url("../images/picture1.jpg");
-
-    /*
-    background-image: url("../images/picture2.jpg");
-    */
-
-    background-repeat: no-repeat;
-    background-position: 80% 0%;
-    background-size: 180%;
-
-/*
-    height: 50%;
-    width: auto;
-    /*
-    background-size: 10%;
-    */
-    /*
-    background-size: contain;
-    */
 }
 #HomePagePicture .home-page-picture-text h1{
     font-size: 2.0em;
-}
-#HomePagePicture .alternate-img-home-page{
-    display: initial;
-    background-image: url("../images/picture2.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    background-size: 160%;
-
-    overflow: hidden;
-    padding-bottom: 0;
-}
-@media only screen and (min-width: 576px){
-    #HomePagePicture .alternate-img-home-page{
-            display: none;
-    }
-   #HomePagePicture {
-        background-color: white;
-        background-image: url("../images/picture1.jpg");
-
-        /*
-        background-image: url("../images/picture2.jpg");
-
-
-        background-repeat: no-repeat;
-        background-position: 80% 0%;
-        background-size: 180%;
-
-    /*
-        height: 50%;
-        width: auto;
-        /*
-        background-size: 10%;
-
-        /*
-        background-size: contain;
-        */
-
-    }
 }
 @media only screen and (min-width: 768px){
     #HomePagePicture .home-page-picture-text h1{
         font-size: 2.6em;
     }
-    #HomePagePicture {
-
-        /*
-        min-height: 100%;
-        width: auto;
-        height: 100%;
-
-
-        background-size: 100%;
-        */
-        background-position: 80% 5%;
-
-        height: auto;
-        width: auto;
-        background-size: 100%;
-    }
 }
-/*
-@media only screen and (orientation: landscape){
-    #HomePagePicture{
-        background-size: 10%;
-    }
-}
-*/
-
-/*
-#Footer {
-    background-color: rgb(40, 122, 136);
-    color: rgb(227, 245, 249);
-    font-weight: bold;
-}
-#Footer a:active {
-    color: rgb(169, 224, 237);
-}
-#Footer a.active {
-    color: rgb(148, 216, 232);
-}
-#Footer h5 {
-    text-decoration: underline;
-}
-#Footer row {
-    border: 2px solid black;
-    padding-bottom: 1em;
-    border-style: none none solid none;
-}
-*/
-/*-------------REFERENCE: default h5 styling
-    display: block;
-    font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    */
 
 #Footer {
     background-color: rgb(40, 122, 136);
@@ -523,11 +327,6 @@ Main navbar general settings
     display: none;
 }
 @media (min-width: 576px) and (max-width: 992px) {
-    /*
-    #Footer #ExpandedFooter {
-        display: none;
-    }
-    */
     #Footer .footer-hide-on-sm-lg {
         display: none;
     }
@@ -535,82 +334,13 @@ Main navbar general settings
         display: initial;
     }
 }
-/*
-@media only screen and (min-width: 768px) {
-    #Footer #ExpandedFooter {
-        display: initial;
-    }
-}
-*/
-
-/*
-#HomePageCards .card {
-    height: 100%;
-    background-color: rgb(177, 224, 232);
-    border: 2px solid rgb(78, 190, 208);
-    box-shadow: 0 0 0.5em #000;
-}
-#HomePageCards .card:hover {
-    background-color: rgb(204, 235, 240);
-}
-
-#HomePageCards .card:active {
-    background-color: rgb(113, 199, 213);
-    box-shadow: 0 0 0.15em #000;
-}
-*/
-
-/*Responsive Text Sizes*//*
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
-*/
 
 @media (max-width: 576px){
     #OverallContainer{
-
-        /*
-        padding-left: 0.01rem;
-        padding-right: 0.01rem;
-
-
-        margin-left: 0.01rem;
-        margin-right: 0.01rem;
-        */
-
         max-width: 100%;
         overflow-x: hidden;
         max-height: 100%;
         overflow-y: hidden;
         margin: auto;
-
-        /*
-        width: 100%;
-        height: 400%;
-        */
     }
 }
-/*
-#OverallContainer .col.first-col{
-    margin-left: 0;
-    margin-right: 0;
-}
-*/
